@@ -16,7 +16,7 @@ public class ProductoServicioImpl implements IProductoServicio{
 
 	@Override
 	public List<Producto> findAll() {
-		return repositorio.findAll();
+		return (List<Producto>) repositorio.findAll();
 	}
 
 	@Override
@@ -34,12 +34,5 @@ public class ProductoServicioImpl implements IProductoServicio{
 		repositorio.deleteById(id);
 		
 	}
-
-	@Override
-	public List<Producto> findByNombre(String term) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 	
 }

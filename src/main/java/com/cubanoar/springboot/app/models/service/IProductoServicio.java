@@ -14,7 +14,5 @@ public interface IProductoServicio {
 	public Producto findOne(Long id);
 	
 	public void delete(Long id);
-	
-	public List<Producto> findByNombre(String term);
 
 }
