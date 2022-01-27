@@ -1,4 +1,4 @@
-package com.cubanoar.springboot.app.models;
+package com.cubanoar.springboot.app.models.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -16,6 +16,8 @@ public class Producto {
 	
 	private String nombre;
 	private Float precio;
+	
+	
 	public Long getId() {
 		return id;
 	}
