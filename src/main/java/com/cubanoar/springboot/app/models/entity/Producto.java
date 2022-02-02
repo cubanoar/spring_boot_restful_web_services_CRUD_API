@@ -10,6 +10,7 @@ import javax.persistence.Table;
 @Table()
 public class Producto {
 
+	/*Genera el id automaticamente*/
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
